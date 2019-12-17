@@ -1,0 +1,101 @@
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+thead{
+    font-weight: bold;
+    font-size: 30px;
+    width: 20%;
+}
+
+tr, td{
+    height: 25px;
+    text-align: left;
+}
+
+h1, p, h2, h3, a, div{
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: hotpink;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.formCSS{
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-allign: center;
+}
+
+.rainbow {
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 5s infinite;
+
+    /* Internet Explorer */
+    -ms-animation: rainbow 5s infinite;
+
+    /* Standar Syntax */
+    animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: orange;}
+    10%{color: purple;}
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    0%{color: orange;}
+    10%{color: purple;}
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}
+    10%{color: purple;}
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}
+}
